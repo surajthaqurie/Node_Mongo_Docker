@@ -14,17 +14,19 @@
   ``` docker-compose down ```  in the terminal.
    
   #### Making own Docker Image:
-  - First make conatainer locally. Type
+  - First bulid the imgae of the project locally. Type
+  ```docker build . -t surajthaqurie/sequelize-mysql``` in the terminal
+  - Then make conatainer locally. Type
   ```docker container run -d -p 3000:80 surajthaqurie/sequelize-mysql```.
     in the terminal. 
-    ##  Here,
+    ###  Here,
      - 3000 port is used by app and 80 port is used for locally(localhost).
      - surajthaqurie is your username of Docker hub.
      - And sequelize-mysql is name of container but accutally this is name of image.
     
    - Then push that image in your Docker Hub.Type
-     ```  docker push surajthaqurie/sequelize-mysql```.
-        in the terminal .
+     ```  docker push surajthaqurie/sequelize-mysql```in the terminal.
     
   
   
+   ### THANK YOU
