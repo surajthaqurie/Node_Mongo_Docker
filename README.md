@@ -21,7 +21,7 @@
   ```docker container run -d -p 80:3000 surajthaqurie/sequelize-mysql```.
     in the terminal. 
     ###  Here,
-     -```80``` port is used for locally and ```3000``` port is used by App.
+     - ```80``` port is used for locally and ```3000``` port is used by App.
      - ```surajthaqurie``` is your username of Docker hub.
      - And ```sequelize-mysql``` is name of container but accutally this is name of image.
     
