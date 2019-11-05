@@ -9,7 +9,7 @@
   
   #### Starting Docker :
   - For run the project with Docker. Type 
-  ``` docker-compose up ```  in the terminal.
+  ``` docker-compose up -d```  in the terminal.
   - For stop the project with Docker. Type 
   ``` docker-compose down ```  in the terminal.
    
